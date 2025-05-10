@@ -26,12 +26,12 @@
 - **Double Buffering**: Smooth VGA updates without flickering.
 - **Difficulty Modes**: SW0 switch selects between simple and difficult modes.
 - **Game Over Overlay** and **Pause Menu** using custom text drawing.
-
+![alt text](images\screenshots.png)
 ---
 
 ## 🛠️ How to Run
 
-1. Connect DE1-SoC board to your computer and a monitor via **VGA**.
+1. Connect the DE1-SoC board to your computer using **USB Blaster**, and connect its **VGA port** to a monitor.
 2. Use the **Intel FPGA Monitor Program** to upload and run your C program on the board .
 3. Start the game:
    - Clap or speak loudly to change direction.
@@ -52,7 +52,7 @@
 
 ## 🧩 Block Diagram
 
-![diagram](image.png)
+![diagram](images\diagram.png)
 
 ---
 
