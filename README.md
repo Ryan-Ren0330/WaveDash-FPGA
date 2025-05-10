@@ -26,7 +26,7 @@
 - **Double Buffering**: Smooth VGA updates without flickering.
 - **Difficulty Modes**: SW0 switch selects between simple and difficult modes.
 - **Game Over Overlay** and **Pause Menu** using custom text drawing.
-![alt text](images\screenshots.png)
+![alt text](images/screenshots.png)
 ---
 
 ## 🛠️ How to Run
@@ -52,7 +52,7 @@
 
 ## 🧩 Block Diagram
 
-![diagram](images\diagram.png)
+![diagram](images/diagram.png)
 
 ---
 
