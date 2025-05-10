@@ -32,7 +32,7 @@
 ## 🛠️ How to Run
 
 1. Connect DE1-SoC board to your computer and a monitor via **VGA**.
-2. Flash the compiled program to the FPGA using `Quartus Prime + ARM DS-5` or your C runtime.
+2. Use the **Intel FPGA Monitor Program** to upload and run your C program on the board .
 3. Start the game:
    - Clap or speak loudly to change direction.
    - Avoid green obstacles, collect items.
@@ -41,17 +41,18 @@
    - **KEY1** – Pause/resume
    - **SW0** – Toggle difficulty before starting (simple/difficult)
 
+
 ---
 
 ## 📺 Demo Video
 
-👉 [Watch the gameplay demo](WaveDash.mov)
+👉 [Watch the gameplay demo](https://drive.google.com/file/d/1KNf4FqGeKdWjfi7tjlCCNHac32qWeMXH/view?usp=sharing)
 
 ---
 
 ## 🧩 Block Diagram
 
-(Insert your block diagram image here or link to the image file)
+![diagram](image.png)
 
 ---
 
@@ -70,15 +71,7 @@
   - **LEDs** for round milestone
   - **7-segment HEX** for time & score
 
----
 
-## 👥 Team Contribution
-
-| Name       | Contribution Area         | Description |
-|------------|---------------------------|-------------|
-| **Wayne Wang** | VGA Display & Audio Input | Implemented VGA rendering, double buffering, and amplitude-based direction control |
-| **Ryan Ren**   | Game Logic & Interactivity | Designed core logic, scoring system, collectibles, collisions, and state transitions |
-| *Both*     | Integration & Testing     | Debugging, gameplay mechanics, and hardware integration |
 
 ---
 
@@ -89,13 +82,19 @@ The game is entirely written in C, using memory-mapped I/O to control:
 - Audio input FIFO
 - Timer interrupts
 - LEDs & HEX displays
+---
 
+## 👥 Team Members
+
+- Ryan Ren  
+- Wayne Wang
 ---
 
 ## 📝 License
 
-This project is developed as part of the ECE243 course at the University of Toronto.  
-Open-sourced for educational purposes only.
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for more details.
+
 
 ---
 
