@@ -40,7 +40,7 @@
    - **KEY0** – Restart the game after game over
    - **KEY1** – Pause/resume
    - **SW0** – Toggle difficulty before starting (simple/difficult)
-
+![alt text](images/board.png)
 
 ---
 
