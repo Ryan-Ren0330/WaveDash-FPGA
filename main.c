@@ -91,7 +91,7 @@ Obstacle obstacles[MAX_OBSTACLES];
 int num_obstacles = 0;
 int obstacle_spawn_counter = 0;
 int obstacle_spawn_interval = 30;
-
+void plot_pixel(int x, int y, short int color);
 //=========================== Audio Interface Structure ===========================//
 typedef struct {
  volatile unsigned int control;
