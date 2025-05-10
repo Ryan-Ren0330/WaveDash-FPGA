@@ -100,5 +100,7 @@ See the [LICENSE](LICENSE) file for more details.
 
 ## 🙌 Acknowledgements
 
-Thanks to the instructors and TAs of **ECE243 (Computer Organization)** for providing the DE1-SoC development environment and guidance.
+We would like to express our sincere gratitude to **Professor Jonathan Rose** of the University of Toronto  
+for his exceptional teaching and guidance in ECE243: Computer Organization.  
+We also thank the **instructors and TAs** for their support and for providing the DE1-SoC development environment and tools.
 
