@@ -773,7 +773,7 @@ int main(void) {
          plot_pixel(current_disp_x + i, current_disp_y + j, RED);
        }
      }
-   } else { // GAME_OVER 状态
+   } else { // GAME_OVER 
      show_game_over();
      if (!key_released) {
        if (((*key_ptr) & 0x1) != 0) key_released = 1;
